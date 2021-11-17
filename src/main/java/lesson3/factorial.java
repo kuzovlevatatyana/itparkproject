@@ -3,7 +3,7 @@ package lesson3;
 public class factorial {
 
    public static void main(String[] args) {
-      System.out.println(factorial(8));
+      System.out.println(factorial(5));
 
    }
 

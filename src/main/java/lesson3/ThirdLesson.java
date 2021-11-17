@@ -7,14 +7,13 @@ public class ThirdLesson {
         double a, b, c;
         double x1, x2;
 
-        a = 0;
-        b = 10;
-        c = 13;
+        a = 12;
+        b = 13;
+        c = 15;
 
         if (a == 0) {
             System.out.println("Первый коэффициент не может быть 0"); // на 0 делить нельзя
         }
-
         double Discriminant = b*b - 4 * a * c;
 
         if (Discriminant == 0) {
@@ -26,7 +25,6 @@ public class ThirdLesson {
             x2 = (-b - Math.sqrt(Discriminant))/(2 * a);
             System.out.printf("x1 = %s, x2 = %s", x1, x2);
             }
-
         else {
                 System.out.println("Нет действительных решений уравнения"); //т.к. дискриминант < 0, корней нет
             }
