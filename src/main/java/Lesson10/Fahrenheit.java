@@ -2,7 +2,7 @@ package Lesson10;
 
 import java.util.Scanner;
 
-public class Fahrenheit extends TempConverter {
+public class Fahrenheit implements TemperatureConverter {
     public Fahrenheit() {
         double f, c;
         f = c =0;

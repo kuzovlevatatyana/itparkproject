@@ -2,7 +2,7 @@ package Lesson10;
 
 import java.util.Scanner;
 
-public class Celsius extends TempConverter{
+public class Celsius implements TemperatureConverter{
      public Celsius() {
         double f;
         double c;        ;
